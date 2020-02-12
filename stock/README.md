@@ -1,3 +1,4 @@
+``` bash
 ./odoo-bin -d 13.0 -i stock --without-demo all --stop-after-init
 
 ./odoo-bin shell -d 13.0 <<EOF
@@ -19,4 +20,4 @@ env['res.users'].create({
 })
 env.cr.commit()
 EOF
-
+```
