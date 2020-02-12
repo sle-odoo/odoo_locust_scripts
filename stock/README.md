@@ -20,4 +20,6 @@ env['res.users'].create({
 })
 env.cr.commit()
 EOF
+
+locust -f pickings_in_out_tasks.py PickerIn PickerOut
 ```
